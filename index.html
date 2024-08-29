@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body><center >
+    <table border="1px" width="30%" bgcolor="#e5ceea"   rules="none">
+     <form name="myform">
+        <tr>
+            <td height="50px" bgcolor="grey"><center>Please fill out the form completely</center></td>
+        </tr>
+        <tr>
+           <td > <fieldset>
+                <legend>Personal information</legend>
+                <br>
+            <b> First Name</b>
+            <input type="text" name="fn" size="30px" autofocus><br><br>
+            <b>Last Name</b>
+            <input type="text" name="ln" size="30px"><br><br>
+            <b>Street:</b>
+            <input type="text" name="s" size="30px"><br><br>
+            <b>City</b>
+            <input type="text" name="c" size="30px"><br><br>
+            <b>State</b>
+            <select name="st">
+                <option value="--" disabled selected>--</option>
+                <option value="UP">UP</option>
+                <option value="MP">MP</option>
+                <option value="UK">UK</option>
+            </select> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            <b>Zip:</b>  &nbsp; 
+            <input type="text" name="z" size="10px">
+        </fieldset>
+        </td>
+       
+        </tr>
+        <tr bgcolor="white" height="20px">
+            <td></td>
+        </tr>
+        <tr >
+            <td  >
+                <fieldset>
+                    <legend>Other Form Elements</legend><br>
+                    <b>Do you have a pet dog?</b>
+                    <input type="radio" name="r" value="Yes">Yes
+                    <input type="radio" name="r" value="No">No 
+                    <br><br>
+                    <b>If yes, how many?</b>
+                    <input type="radio" name="h" value="One">One
+                    <input type="radio" name="h" value="Two">Two
+                    <input type="radio" name="h" value="More than two">More than two
+                    <br><br>
+                    <b>What breed of dog have you had as a pet? (check all that apply)</b>
+                    <input type="checkbox" name="c" value="bulidog">Bulidog
+                    <input type="checkbox" name="c" value="Basset hound">Basset hound
+                    <input type="checkbox" name="c" value="Golden">Golden Retriever
+                    <br><br>
+                    <b>Tell us about your favourite dog:</b>
+                    <textarea name="dog" cols="50" rows="7"></textarea>
+                </fieldset>
+            </td>
+        </tr>
+     </form>
+    </table>
+</center>
+</body>
+</html>
